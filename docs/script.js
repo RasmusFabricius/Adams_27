@@ -13,14 +13,14 @@ const riddles = [
 
     // Location image riddles (place matching images in sv/ folder)
     // New order and titles without place names (title shows only 'Billede')
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/grand_canyon.jpg', a: ['grand canyon'] },
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/rhodos.jpg', a: ['rhodos', 'rhodes'] },
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/new_york.jpg', a: ['new york', 'nyc'] },
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/japan.jpg', a: ['japan'] },
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/milano.jpg', a: ['milano', 'milan'] },
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/gdansk.jpg', a: ['gdansk', 'gdańsk'] },
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/monsted.jpg', a: ['mønsted kalkgruber', 'mønsted', 'monsted'] },
-    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/pando.jpg', a: ['pando'] }
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/grand_canyon.png', a: ['grand canyon'] },
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/rhodos.png', a: ['rhodos', 'rhodes'] },
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/new_york.png', a: ['new york', 'nyc'] },
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/japan.png', a: ['japan'] },
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/milano.png', a: ['milano', 'milan'] },
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/gdansk.png', a: ['gdansk', 'gdańsk'] },
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/monsted.png', a: ['mønsted kalkgruber', 'mønsted', 'monsted'] },
+    { title: 'Billede', q: 'Hvilket sted er dette?', img: 'sv/pando.png', a: ['pando'] }
 ];
 
 let idx = 0;
