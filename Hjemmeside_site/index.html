@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Adams Fødselsdag - Gåder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Adams Fødselsdag - Gåder</h1>
+        <p class="lead">Løs gåden og skriv kodeordet. Rigtigt svar udløser en fødselsdagseffekt — forkert svar giver
+            gulerødder!</p>
+
+        <section id="riddle-box" class="card">
+            <h2 id="riddle-title">Gåde 1</h2>
+            <p id="riddle-text">Loading...</p>
+
+            <!-- billed-plads for Street View / foto-gåder -->
+            <div id="media" class="media" aria-hidden="true">
+                <img id="riddle-image" alt="" />
+            </div>
+
+            <label for="answer">Skriv kodeordet:</label>
+            <input id="answer" type="text" autocomplete="off" />
+            <div class="buttons">
+                <button id="submit">Tjek svar</button>
+                <button id="skip">Næste gåde</button>
+            </div>
+
+            <p id="feedback" aria-live="polite"></p>
+        </section>
+
+        <div id="effects"></div>
+
+        <footer>
+            <small>Lav: En lille fødselsdags-site</small>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
