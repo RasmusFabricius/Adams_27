@@ -4,7 +4,7 @@ const riddles = [
     { title: 'Gåde 3', q: 'Hvad går op og ned, men bevæger sig aldrig?', a: 'trappe' },
     { title: 'Gåde 4', q: 'Hvad bliver større jo mere du tager fra det?', a: ['hul', 'et hul'] },
     // Emoji-rebus: gæt hvilken Disney-film
-    { title: 'Emoji Rebus: 1', q: '🦁👑', a: ['the lion king', 'lion king', 'løvenes konge', 'løvens konge'] },
+    { title: 'Emoji Rebus: 1', q: '🦁👑', a: ['the lion king', 'lion king', 'løvernes konge', 'løvens konge'] },
     { title: 'Emoji Rebus: 2', q: '🧞‍♂️🕌', a: ['aladdin'] },
     { title: 'Emoji Rebus: 3', q: '👠🎃', a: ['askepot', 'cinderella'] },
     { title: 'Emoji Rebus: 4', q: '❄️👭', a: ['frozen', 'frost', 'frost 1', 'frozen 1'] },
